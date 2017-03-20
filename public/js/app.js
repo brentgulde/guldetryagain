@@ -50,7 +50,7 @@ function z(){
 
 
 $.ajax({
-		url: "https://www.omdbapi.com/?t=gotham&Season=2"
+		url: "http://www.omdbapi.com/?t=x-men 2"
 		
 	}).done(function(ret){
 		console.log(ret);
@@ -83,7 +83,7 @@ function b(){
 
 
 $.ajax({
-		url: "https://www.omdbapi.com/?t=gotham&Season=3"
+		url: "http://www.omdbapi.com/?t=x-men+the+last+stand"
 		
 	}).done(function(ret){
 		console.log(ret);
